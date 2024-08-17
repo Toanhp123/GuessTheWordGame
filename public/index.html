@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Guess Word</title>
+    </head>
+    <body>
+        <div class="app">
+            <div class="box">
+                <img class="title" src="../assets/Word Scramblle.svg" alt="" />
+                <div class="content">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="description">
+                    <ul class="try">
+                        <li class="try-count-title"></li>
+                        <li class="try-count"><div></div></li>
+                        <li class="try-count"><div></div></li>
+                        <li class="try-count"><div></div></li>
+                        <li class="try-count"><div></div></li>
+                        <li class="try-count"><div></div></li>
+                    </ul>
+                    <ul class="mistake">
+                        <li class="mistake-char-title">Mistake:</li>
+                        <li class="mistake-char"></li>
+                    </ul>
+                </div>
+                <ul class="list-enter-char">
+                    <li class="list-item">
+                        <input type="text" maxlength="1" id="input-1" />
+                    </li>
+                    <li class="list-item">
+                        <input type="text" maxlength="1" id="input-2" />
+                    </li>
+                    <li class="list-item">
+                        <input type="text" maxlength="1" id="input-3" />
+                    </li>
+                    <li class="list-item">
+                        <input type="text" maxlength="1" id="input-4" />
+                    </li>
+                    <li class="list-item">
+                        <input type="text" maxlength="1" id="input-5" />
+                    </li>
+                    <li class="list-item">
+                        <input type="text" maxlength="1" id="input-6" />
+                    </li>
+                </ul>
+                <div class="list-btn">
+                    <button class="random-btn">Random</button>
+                    <button class="reset-btn">Reset</button>
+                </div>
+            </div>
+        </div>
+        <script src="../src/main.js"></script>
+    </body>
+</html>
